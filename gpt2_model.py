@@ -4,7 +4,7 @@ import torch.nn as nn
 from types import SimpleNamespace
 GPT_CONFIG_124M = {
     "vocab_size": 50257,
-    "context_length": 1024,
+    "context_length": 256,
     "emb_dim": 768,
     "out_dim": 768,
     "n_heads": 12, ## Number of heads in a transformer
